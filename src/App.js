@@ -7,10 +7,15 @@ const App = () => {
 
   return (
     <div>
-      <h1>Explore Our Offerings</h1>
-      <Button videoUrl={videoUrl} />
-      <Button/>
       <Podcast /> 
+      <br></br>
+      <br></br>
+      <br></br>
+      <Button/>
+
+      <Button videoUrl={videoUrl} />
+
+
     </div>
   );
 };

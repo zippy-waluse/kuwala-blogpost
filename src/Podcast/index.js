@@ -2,25 +2,12 @@ import React from 'react';
 import './index.css';
 
 
-// PlayButton Component
 const PlayButton = () => {
-    const playButtonStyle = {
-        width: '100px', // Adjust size as needed
-        height: '100px', // Adjust size as needed
-        backgroundColor: '#964B00',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        borderRadius: '50%',
-        cursor: 'pointer',
-        margin: '10px', // Add some space around the button
-        
-    };
+  
 
 };
 
-// InteractiveBox Component
+
 const InteractiveBox = () => {
     const playButtonStyle = {
         position: 'absolute',
@@ -29,9 +16,9 @@ const InteractiveBox = () => {
         transform: 'translate(-50%, -50%)',
         width: '50px',
         height: '50px',
-        backgroundImage: `url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2z'/%3E%3C/svg%3E)`,
+        backgroundImage: `url(data:image/svg+xml,%3Csvg xmlns='https://youtu.be/1e5x6-80c_Y?si=A7a1MEPFcQhgpUI_' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2z'/%3E%3C/svg%3E)`,
         backgroundSize: 'cover',
-        opacity: 1, // Make the play button always visible
+        opacity: 1, 
         transition: 'opacity 0.3s ease',
         backgroundColor:'white'
     };
@@ -56,7 +43,6 @@ const InteractiveBox = () => {
     );
 };
 
-// Podcast Component
 const Podcast = () => {
     return (
         <div className='title'>
