@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Homepage />
       <Podcast />
-      <Button /> {/* Default Button instance */}
-      <Button videoUrl={videoUrl} /> {/* Button instance with videoUrl prop */}
+      <Button /> 
+      <Button videoUrl={videoUrl} /> {}
       <Identity />
     </div>
   );
