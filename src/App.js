@@ -1,23 +1,19 @@
-import React from 'react';
-import Podcast from "./Podcast";
+import './App.css';
+import Homepage from './Homepage';
+import Podcast from './Podcast';
 import Button from './Videos';
 
-const App = () => {
-  const videoUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 
-  return (
-    <div>
-      <Podcast /> 
-      <br></br>
-      <br></br>
-      <br></br>
-      <Button/>
+function App(){
+  return(
+  <div>
+    <Homepage/>
+    <Podcast/>
+    <Button/>
+    <Button/>
 
-      <Button videoUrl={videoUrl} />
-
-
-    </div>
-  );
-};
+  </div>
+   );
+}
 
 export default App;

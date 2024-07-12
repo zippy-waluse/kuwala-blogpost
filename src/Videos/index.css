@@ -1,5 +1,5 @@
 .video-button {
-    background-color: #964B00;
+    background-color: #83a7e0;
     border: none;
     color: white;
     padding: 12px 24px;
@@ -22,4 +22,8 @@
     background-color: #75726f;
   }
 
- 
+  
+
+@media only screen and (min-width: px) and (max-width: px){
+
+}
