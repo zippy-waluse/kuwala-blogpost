@@ -1,5 +1,6 @@
 import './index.css';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Homepage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,11 +22,12 @@ function Homepage() {
           <span></span>
           <span></span>
         </div>
+
         <ul className={`navbar-content ${isMenuOpen ? 'active' : ''}`}>
           <li><a href="#">Home</a></li>
           <li><a href="#">Team</a></li>
           <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Podcast</a></li>
+          <li><a href="">Podcast</a></li>
           <li><a href="#">Videos</a></li>
           <li><a href="#">Blog</a></li>
         </ul>
