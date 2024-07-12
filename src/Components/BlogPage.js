@@ -4,6 +4,7 @@ import  Trevor from "../image/Trevor.jpeg"
 
 
 const Identity =()=>{
+    const pdfUrl = 'https://docs.google.com/document/d/1Rc0hQjGxoS3GZBk_-4me4kYeEzlzPjThaR1vtaEwa_Y/edit?usp=drive_link'
    return(
     
        <div id='content'>
@@ -91,9 +92,20 @@ const Identity =()=>{
 
         </p>
         </div>
+
+        
        
-          
+
+        <div>
+    <a href={pdfUrl} target='"_blank' rel='noopener nonreferrer' className='research-articel'>Here a report of our research</a>
+    
        </div>
+
+       </div>
+
+       
+
+       
 
        
 
