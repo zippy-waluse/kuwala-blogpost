@@ -1,10 +1,9 @@
 import React from 'react';
 import Podcast from "./Podcast";
-import Button from './Videos'; // Assuming this is the correct path for your Button component
+import Button from './Videos'; 
 import Homepage from './Homepage';
-import Identity from "./Components/BlogPage"; // Adjusted path based on your structure
-import './App.css'; // Importing global styles
-
+import Identity from "./Components/BlogPage"; 
+import './App.css'; 
 import './App.css';
 import Footer from './Footer';
 
