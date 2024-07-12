@@ -4,6 +4,7 @@ import Homepage from './Homepage';
 import Podcast from './Podcast';
 import Button from './Videos'; 
 import Identity from "./Components/BlogPage"; 
+import Footer from './Footer';
 
 function App() {
   const videoUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'; 
@@ -14,6 +15,7 @@ function App() {
       <Button /> 
       <Button videoUrl={videoUrl} /> {}
       <Identity />
+      <Footer/>
     </div>
   );
 }
