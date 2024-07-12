@@ -1,0 +1,375 @@
+.container{
+    background-color: #1D8804;
+    /* height: 960px; */
+    margin-top: 15%;
+}
+.team img{
+   width: 256px;
+   gap: 10%;
+   border-radius: 50%;
+   display: flex;
+   justify-content: 30%;
+}
+.figure{
+   text-align: center;
+   font-size: 16px;
+   color: aliceblue;
+}
+.teammembers{
+    text-align: center;
+    color: aliceblue;
+    /* padding-left: 36%; */
+    font-size: 45px;
+}
+.buttomteam{
+    padding-top: 45px;
+    display: flex;
+    gap: 20%;
+    padding-left: 500px;
+}
+.upperteam{
+    display: flex;
+    gap: 20%;
+    padding-top: 8px;
+    padding-left: 300px;
+    /* margin-right: 10%; */
+    padding-right: 280px;
+}
+@media only screen and (min-width: 280px) and (max-width: 374px){
+    .container{
+        background-color: #1D8804;
+    }
+    .team img{
+       width: 150px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       /* margin-left: 82%; */
+    }
+    .figure{
+       font-size: 1rem;
+       padding-left: -200px;
+       margin-left: -5%;
+    }
+    .teammembers{
+        font-size: 30px;
+        text-align: center;
+    }
+    .buttomteam{
+        padding-left: 10px;
+       flex-direction: column;
+       align-items: center;
+       /* margin-left: -200%; */
+       margin-left: 10%;
+    }
+    .upperteam{
+        flex-direction: column;
+       align-items: center;
+        /* padding-left: 10px; */
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-left: 5%;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 414px){
+    .container{
+        background-color: #1D8804;
+    }
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+        width: 314px;
+    }
+    .team img{
+       width: 130px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       /* margin-left: 48%; */
+    }
+    .figure{
+       font-size: 1rem;
+      margin-left: -30%;
+    }
+    .teammembers{
+        font-size: 30px;
+        padding-left: 70px;
+    }
+    .buttomteam{
+       flex-direction: column;
+       align-items: center;
+       padding-left:0px;
+       padding-right: 0px;
+       margin-left: 43%;
+       gap: 50px;
+    }
+    .upperteam{
+        flex-direction: column;
+       align-items: center;
+       padding-left: 0px;
+       padding-right: 0px;
+       margin-left: 42%;
+       gap: 50px;
+        /* padding-left: 0px;
+        padding-right: 0px;        */
+    }
+    }
+    @media only screen and (min-width: 415px) and (max-width: 539px){
+    .container{
+        background-color: #1D8804;
+        margin-top: 80%;
+    }
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+        margin-top: 70px;
+        width:76.8% ;
+    }
+    .team img{
+       width: 150px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       margin-right: 10%;
+    }
+    .figure{
+       font-size: 0.5rem;
+       text-align: center;
+       /* padding-right:40px; */
+    }
+    .teammembers{
+        font-size: 35px;
+        padding-left: 62px;
+    }
+    .buttomteam{
+       flex-direction: column;
+       align-items: center;
+       padding-left:0px;
+       padding-right: 0px;
+       margin-left: 35%;
+       gap: 10px;
+    }
+    .upperteam{
+        flex-direction: column;
+       align-items: center;
+       padding-left: 0px;
+       padding-right: 0px;
+       margin-left: 33%;
+       gap: 50px;
+        /* padding-left: 0px;
+        padding-right: 0px;        */
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 819px){
+    .container{
+        background-color: #1D8804;
+        margin-top: -50%;
+    }
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+        margin-top: 20%;
+        margin-bottom: 30%;
+        width:115.1% ;
+    }
+    .team img{
+       width: 150px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       margin-right: 10%;
+    }
+    .figure{
+       font-size: 0.5rem;
+       /* padding-right:40px; */
+    }
+    .teammembers{
+        font-size: 35px;
+        padding-left: 50px;
+    }
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       padding-left:0px;
+       padding-right: 0px;
+       margin-left: 25%;
+       gap: 50px;
+    }
+    .upperteam{
+        flex-direction: row;
+       align-items: center;
+       margin-left: -34%;
+       gap: 50px;
+        /* padding-left: 0px;
+        padding-right: 0px;        */
+    }
+}
+@media only screen and (min-width: 820px) and (max-width: 1023px){
+    .container{
+        background-color: #1D8804;
+        margin-top: 50%;
+    }
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+        margin-top: 10%;
+        margin-bottom: 39%;
+        width:90.1% ;
+    }
+    .team img{
+       width: 190px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       margin-right: 10%;
+    }
+    .figure{
+       padding-right:0px;
+       margin-left: 0%;
+       margin-right:0% ;
+    }
+    .teammembers{
+        font-size: 35px;
+        padding-left: 50px;
+    }
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       padding-left:0px;
+       padding-right: 0px;
+       margin-left: 19%;
+       gap: -10px;
+    }
+    .upperteam{
+        flex-direction: row;
+       align-items: center;
+       margin-left: -32%;
+       gap: 50px;
+        /* padding-left: 0px;
+        padding-right: 0px;        */
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1123px) {
+    .body{
+        background-color: #1D8804;
+    }
+    .container{
+        /* padding-right: 100px;
+        margin-right: 20%; */
+        margin-top: 48%;
+        width: 99.8%;
+        margin-bottom: 50%;
+    }
+    .team img{
+       width: 150px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       margin-right: 10%;
+    }
+    .figure{
+       font-size: 30px;
+       padding-right:15px;
+    }
+    .teammembers{
+        font-size: 30px;
+        padding-left: -20px;
+    }
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       padding-left:0px;
+       padding-right: 0px;
+       margin-left:30%;
+       gap: 50px;
+    }
+    .upperteam{
+        flex-direction: row;
+       align-items: center;
+       margin-left: -8%;
+       gap: 50px;
+        /* padding-left: 0px;
+        padding-right: 0px;        */
+    }
+}
+@media only screen and (min-width: 1124px) and (max-width: 1280px){
+    .container{
+        background-color: #1D8804;
+    }
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+        margin-top: 50%;
+        width: 91.8%;
+        height: 40%;
+    }
+    .team img{
+       width: 220px;
+       gap: 5%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+    }
+    .figure{
+       font-size: 1rem;
+    }
+    .teammembers{
+        font-size: 30px;
+    }
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       margin-left: -17%;
+       /* padding-right: 50px; */
+    }
+    .upperteam{
+        flex-direction:row;
+        align-items: center;
+        margin-left: -10%;
+        /* padding-right: 150px;        */
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 768px){
+    .container{
+        background-color: #1D8804;
+    }
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+        margin-top: 50%;
+        width: 136.2%;
+    }
+    .team img{
+       width: 220px;
+       gap: 5%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+    }
+    .figure{
+       font-size: 3rem;
+    }
+    .teammembers{
+        font-size: 40px;
+        margin-right: 80%;
+    }
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       margin-left: 30%;
+       /* padding-right: 50px; */
+       gap: 8%;
+    }
+    .upperteam{
+        flex-direction:row;
+        align-items: center;
+        margin-left: -10%;
+        /* padding-right: 150px;        */
+    }
+}

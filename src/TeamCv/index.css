@@ -1,0 +1,523 @@
+.cardsText{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 617px;
+    width: 339px;
+    padding: 15px;
+    margin-right: 2px;
+    font: 1em sans-serif;
+}
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 550px;
+    width: 339px;
+    padding: 15px;
+    margin-right: 10%;
+}
+.cardStack{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 550px;
+    width: 339px;
+    padding: 15px;
+    margin-right: 10%;
+}
+.cardsContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 3%;
+    margin-left: 8%;
+    gap: 10px;
+    
+}
+.h1Tag{
+    text-align: center;
+    margin-left: 2%;
+    font-family: inter;
+}
+h1{
+    color: #411900;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 3%;
+    font-family: inter;
+    margin-top: 8%;
+}
+p{
+    font-size: 27px;
+    text-align: left;
+    font-family: inter;
+}
+.bottomcards{
+    margin-left:17% ;
+    gap: 5px;
+}
+@media only screen and (min-width: 280px) and (max-width: 340px) {
+    .cardsText{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 310px;
+        width: 200px;
+        margin-top: 10%;
+        margin-left: 0.5%;
+    }
+    .cardBox{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 510px;
+        width: 200px;
+        padding: 15px;
+        margin-top: 10%;
+        margin-left: 0.5%;
+    }
+    .cardStack{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 410px;
+        width: 200px;
+        padding: 15px;
+        margin-top: 10%;
+        margin-left: 0.5%;
+    }
+    .cardsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        color: green;
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    #delivery-card{
+        margin-bottom: 3%;
+    }
+}
+@media only screen and (min-width: 341px) and (max-width: 360px) {
+    .cardsText{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 310px;
+        width: 240px;
+        margin-top: 10%;
+        margin-left: 8.5%;
+    }
+    .cardBox{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 510px;
+        width: 240px;
+        padding: 15px;
+        margin-top: 20%;
+        margin-left: 8.5%;
+    }
+    .cardStack{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 410px;
+        width: 240px;
+        margin-top: 10%;
+        margin-left: 8.5%;
+    }
+    .cardsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    #delivery-card{
+        margin-left: 4.5%;
+    }
+    h1{
+        color: green;
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 395px) {
+    .cardsText{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 450px;
+        width: 280px;
+        margin-top: 10%;
+    }
+    .cardBox{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 450px;
+        width: 280px;
+        margin-top: 10%;
+    }
+    #delivery-card{
+        margin-left: 2.5%;
+    }
+    .cardStack{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 450px;
+        width: 280px;
+        margin-top: 10%;
+    }
+    .cardsContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 7.5%;
+    }
+    h1{
+        color: green;
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 396px) and (max-width: 414px) {
+    .cardsText{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 450px;
+        width: 280px;
+        margin-top: 10%;
+    }
+    .cardBox{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 450px;
+        width: 280px;
+        margin-top: 10%;
+    }
+    #delivery-card{
+        margin-left: 4.5%;
+    }
+    .cardStack{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 450px;
+        width: 280px;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+    .cardsContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 7.5%;
+    }
+    h1{
+        color: green;
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 540px) {
+    .cardsText{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 450px;
+        width: 350px;
+        margin-top: 10%;
+    }
+    .cardBox{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 417px;
+        width: 350px;
+        padding: 15px;
+        margin-right: 10%;
+        margin-top: 15%;
+    }
+    .cardStack{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 417px;
+        width: 350px;
+        padding: 15px;
+        margin-right: 10%;
+        margin-top: 15%;
+    }
+    .cardsContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+    }
+    h1{
+        color: green;
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #delivery-card{
+        margin-left: -7%;
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (min-width: 820px) and (max-width: 900px) {
+    .services-heading{
+        font-size: 50px;
+    }
+    .cardsText{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 760px;
+        width: 93%;
+        margin-top: 10%;
+        justify-content: start;
+    }
+    .cardBox{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 760px;
+        width: 93%;
+        padding: 15px;
+        margin-top: 10%;
+    }
+    .cardStack{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 760px;
+        width: 93%;
+        padding: 15px;
+        margin-top: 10%;
+        margin-bottom: 13%;
+    }
+    .cardsContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+    h1{
+        color: green;
+        font-size: 50px;
+    }
+    p{
+        font-size: 35px;
+    }
+}
+@media only screen and (min-width: 901px) and (max-width: 935px) {
+    .services-heading{
+        font-size: 50px;
+    }
+    .cardsText{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 760px;
+        width: 93%;
+        margin-top: 10%;
+        justify-content: start;
+    }
+    .cardBox{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 760px;
+        width: 93%;
+        padding: 15px;
+        margin-top: 10%;
+    }
+    .cardStack{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 760px;
+        width: 93%;
+        padding: 15px;
+        margin-top: 10%;
+        margin-bottom: 13%;
+    }
+    .cardsContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+    h1{
+        color: green;
+        font-size: 50px;
+    }
+    p{
+        font-size: 35px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1123px) {
+    .cardsText{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 400px;
+        width: 350%;
+    }
+    .cardBox{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 400px;
+        width: 350%;
+        margin-left: 9.5%;
+    }
+    .cardStack{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 400px;
+        width: 350%;
+    }
+    .cardsContainer{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+    }
+    h1{
+        color: green;
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1124px) and (max-width: 1280px) {
+    .cardsText{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 500px;
+        /* width: 300%; */
+    }
+    .cardBox{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        height: 500px;
+        margin-right: 0;
+        /* width: 300%; */
+        /* margin-left: 7%; */
+    }
+    .cardStack{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 500px;
+        margin-right: 0;
+        /* width: 300%; */
+    }
+    .cardsContainer{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        margin-right: 10%;
+        gap:5%;
+        /* width: 950px; */
+        /* margin-left: 15%;
+        gap: 5%; */
+    }
+    h1{
+        color: green;
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #delivery-card{
+        margin-bottom: 30%;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 768px) {
+    .cardsText{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        width: 80%;
+    }
+    .cardBox{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 1200px;
+        width: 80%;
+        margin-top: 10%;
+    }
+    .cardStack{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+         height: 1200px;
+        width: 80%;
+        margin-top: 10%;
+    }
+    .cardsContainer{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        width: 950px;
+        margin-left: 17%;
+        gap: 30px;
+    }
+    h1{
+        color: green;
+        font-size: 40px;
+        margin-left: 35%;
+    }
+    p{
+        font-size: 35px;
+    }
+}
