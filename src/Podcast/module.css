@@ -1,0 +1,6 @@
+/* styles.module.css */
+.interactiveBox {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 5px;
+}

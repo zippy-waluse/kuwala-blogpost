@@ -13,3 +13,29 @@
 .box-text{
     color: white;
 }
+
+.interactiveBox {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    cursor: pointer;
+    background-color: #964B00;
+}
+
+.title {
+    font-size: 24px; 
+}
+
+.dynamic-text {
+    text-align: center; 
+}
+
+/* /home/student/kuwala-project/src/Podcast/Podcast.module.css */
+.testStyle {
+    color: red; /* Just a test style */
+}
+
