@@ -15,9 +15,11 @@ const Identity =()=>{
        
         
         <div>
+
             
         <h1>Unveilling the power of Identity:</h1>
-        <h1>A Dive in to "Born A Crime</h1>
+        <h1 className='born-a-crime'>Born A Crime Overview</h1>
+
         <p>In the realm  of literature, books often serve as mirrors reflecting society's <br></br>
            complexities, challenges, and triumphs. One such book that has captivated<br></br>
            readers worldwide is “Born a Crime,” penned by Trevor Noah. This memoir<br></br> 
@@ -97,7 +99,7 @@ const Identity =()=>{
        
 
         <div>
-    <a href={pdfUrl} target='"_blank' rel='noopener nonreferrer' className='research-articel'>Here a report of our research</a>
+    <a href={pdfUrl} target='"_blank' rel='noopener nonreferrer' className='research-articel'>Find our research article here </a>
     
        </div>
 
