@@ -12,9 +12,9 @@ const Button = ({ onClick, children }) => {
         {children}
         Click to play listen
       </button>
-      <button onClick={() => openUrl('https://youtu.be/1e5x6-80c_Y?si=A7a1MEPFcQhgpUI_')} className="video-button">
+      <button onClick={() => openUrl('https://drive.google.com/file/d/1oxQ1TxDvAuVGLzEq4E7Eu6_9apzC3uip/view?usp=drive_link')} className="video-button">
         {children}
-        Click to listen
+        Listen to podcast
       </button>
     </>
   );

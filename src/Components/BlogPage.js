@@ -103,6 +103,23 @@ const Identity =()=>{
     
        </div>
 
+       <div id='image'>
+        <img class='trevor' src={Trevor} alt='Trevor'/>
+
+        </div>
+
+        <img></img>
+
+       
+
+       <div>
+<a href='https://drive.google.com/drive/folders/1Ckfp8_EzzA6eVS5NQ7LBvu5z7QO2WBfb'>Read more on our analysis</a>       
+
+       </div>
+
+
+       
+
        </div>
 
        
